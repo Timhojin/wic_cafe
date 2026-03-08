@@ -292,3 +292,35 @@ img {
     height: auto;
     display: block;
 }
+
+/* QR CODE SECTION */
+
+.qr-section{
+text-align:center;
+padding:60px 20px;
+background:#f1ede7;
+}
+
+.qr-section h2{
+font-size:30px;
+margin-bottom:10px;
+color:#3b2f2f;
+}
+
+.qr-section p{
+margin-bottom:25px;
+color:#555;
+}
+
+.qr-container{
+display:flex;
+justify-content:center;
+}
+
+.qr-container img{
+width:180px;
+height:180px;
+border:6px solid white;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
