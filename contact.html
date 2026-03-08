@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact WIC Café</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo">WIC Café</div>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+        <ul id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="container">
+
+<h2 class="section-title">Contact Us</h2>
+
+<div class="contact-box">
+
+<form onsubmit="return validateForm()">
+
+<input id="name" type="text" placeholder="Your Name">
+
+<input id="email" type="email" placeholder="Your Email">
+
+<textarea id="message" placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+    <p>© 2026 WIC Café</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
